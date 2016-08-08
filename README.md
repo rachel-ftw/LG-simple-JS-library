@@ -1,5 +1,5 @@
 # LG-simple-JS-library
-[Origional Project Description](http://github.com/GuildCrafts/web-development-js/issues/37)
+[Original Project Description](http://github.com/GuildCrafts/web-development-js/issues/37)
 
 
 ##Description
@@ -16,8 +16,13 @@ This goal is important in learning JavaScript and understanding how high level d
 
 
 ####Required
+
 -[ ] Pick 25 commonly used methods to rewrite in ES2015.
+
 -[ ] Create a ReadMe that describes each method and provides an example of use.
+
 -[ ] Publish package to NPM.
+
 -[ ] Write tests for the methods described.
+
 -[ ] The artifact produced is properly licensed, preferably with the MIT license.
