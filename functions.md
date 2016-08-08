@@ -24,11 +24,14 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] [_.bindAll](https://lodash.com/docs#bindAll): Binds methods of an object to the object itself, overwriting the existing method.
 - 
 
+
 ####Objects
 
 - [ ] [_.merge](https://lodash.com/docs#merge): This method is like _.assign except that it recursively merges own and inherited enumerable string keyed properties of source objects into the destination object. Source properties that resolve to undefined are skipped if a destination value exists. Array and plain object properties are merged recursively. Other objects and value types are overridden by assignment. Source objects are applied from left to right. Subsequent sources overwrite property assignments of previous sources. 
 
+
 ###You're a super hero and you get extra credit.
+
 
 - [ ] [_.chain](https://lodash.com/docs#chain): Creates a lodash wrapper instance that wraps value with explicit method chain sequences enabled. The result of such sequences must be unwrapped with _#value.
 - [ ] [_.tap](https://lodash.com/docs#tap): This method invokes interceptor and returns value. The interceptor is invoked with one argument; (value). The purpose of this method is to "tap into" a method chain sequence in order to modify intermediate results.
