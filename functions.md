@@ -12,11 +12,16 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] [_.sum](https://lodash.com/docs#sum): Computes the sum of the values in array.
 - [ ] [_.toString](https://lodash.com/docs#toString): Converts value to a string. An empty string is returned for null and undefined values.
 - [ ] [_.isString](https://lodash.com/docs#isString): Checks if value is classified as a String primitive or object.
+- [ ] [_.nth](https://lodash.com/docs#nth): Gets the element at index n of array. If n is negative, the nth element from the end is returned.
+- [ ] [_.toArray](https://lodash.com/docs#toArray): Converts value to an array.
+- [ ] [_.wrap](https://lodash.com/docs#wrap): Creates a function that provides value to wrapper as its first argument. Any additional arguments provided to the function are appended to those provided to the wrapper. The wrapper is invoked with the this binding of the created function.
+
+
 
 
 ##More challenging
 
-- [ ] [https://lodash.com/docs#unary](https://lodash.com/docs#unary): Creates a function that accepts up to one argument, ignoring any additional arguments.
+- [ ] [_.unary](https://lodash.com/docs#unary): Creates a function that accepts up to one argument, ignoring any additional arguments.
 
 ####Arrays
 
