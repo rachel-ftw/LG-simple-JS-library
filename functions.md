@@ -9,10 +9,14 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] [_.upperCase](https://lodash.com/docs#upperCase): Converts string, as space separated words, to upper case.
 - [ ] [_.replace](https://lodash.com/docs#replace): Replaces matches for pattern in string with replacement. 
 - [ ] [_.pad](https://lodash.com/docs#pad): Pads string on the left and right sides if it’s shorter than length. Padding characters are truncated if they can’t be evenly divided by length.
-- [ ] [](): 
+- [ ] [_.sum](https://lodash.com/docs#sum): Computes the sum of the values in array.
+- [ ] [_.toString](https://lodash.com/docs#toString): Converts value to a string. An empty string is returned for null and undefined values.
+- [ ] [_.isString](https://lodash.com/docs#isString): Checks if value is classified as a String primitive or object.
 
 
 ##More challenging
+
+- [ ] [https://lodash.com/docs#unary](https://lodash.com/docs#unary): Creates a function that accepts up to one argument, ignoring any additional arguments.
 
 ####Arrays
 
