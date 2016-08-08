@@ -11,7 +11,6 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] [_.pad](https://lodash.com/docs#pad): Pads string on the left and right sides if it’s shorter than length. Padding characters are truncated if they can’t be evenly divided by length.
 - [ ] [_.sum](https://lodash.com/docs#sum): Computes the sum of the values in array.
 - [ ] [_.toString](https://lodash.com/docs#toString): Converts value to a string. An empty string is returned for null and undefined values.
-- [ ] [_.isString](https://lodash.com/docs#isString): Checks if value is classified as a String primitive or object.
 - [ ] [_.nth](https://lodash.com/docs#nth): Gets the element at index n of array. If n is negative, the nth element from the end is returned.
 - [ ] [_.toArray](https://lodash.com/docs#toArray): Converts value to an array.
 - [ ] [_.wrap](https://lodash.com/docs#wrap): Creates a function that provides value to wrapper as its first argument. Any additional arguments provided to the function are appended to those provided to the wrapper. The wrapper is invoked with the this binding of the created function.
@@ -32,6 +31,10 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] [_.flow](https://lodash.com/docs#flow): Creates a function that returns the result of invoking the given functions with the this binding of the created function, where each successive invocation is supplied the return value of the previous.
 - [ ] [_.bindAll](https://lodash.com/docs#bindAll): Binds methods of an object to the object itself, overwriting the existing method.
 - [ ] [](): 
+- zip
+- 3. .uniqueId  - Util
+- - 11. .mixin  - Util
+- 1. .parseInt  - String
 
 ####Objects
 
@@ -40,7 +43,9 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] [_.invert](https://lodash.com/docs#invert): Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values.
 - [ ] [_.assign](https://lodash.com/docs#assign): Assigns own enumerable string keyed properties of source objects to the destination object. Source objects are applied from left to right. Subsequent sources overwrite property assignments of previous sources. 
 
-##You're a super hero and you get extra credit.
+
+
+##You're a super hero and you get extra credit. (nice to haves)
 
 - [ ] [_.chain](https://lodash.com/docs#chain): Creates a lodash wrapper instance that wraps value with explicit method chain sequences enabled. The result of such sequences must be unwrapped with _#value.
 - [ ] [_.tap](https://lodash.com/docs#tap): This method invokes interceptor and returns value. The interceptor is invoked with one argument; (value). The purpose of this method is to "tap into" a method chain sequence in order to modify intermediate results.
