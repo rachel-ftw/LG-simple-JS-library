@@ -2,7 +2,7 @@
 
 Pulling data from [lodash](https://lodash.com/)
 
-###Less Challenging
+##Less Challenging
 
 - [ ] [_.isArray](https://lodash.com/docs#isArray): Checks if a value is an a array, output is boolean
 - [ ] [_.stubArray](https://lodash.com/docs#stubArray): This method returns a new empty array.
@@ -12,7 +12,7 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] [](): 
 
 
-###More challenging
+##More challenging
 
 ####Arrays
 
@@ -22,15 +22,17 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] [_.slice](https://lodash.com/docs#slice): Creates a slice of array from start up to, but not including, end.
 - [ ] [_.flow](https://lodash.com/docs#flow): Creates a function that returns the result of invoking the given functions with the this binding of the created function, where each successive invocation is supplied the return value of the previous.
 - [ ] [_.bindAll](https://lodash.com/docs#bindAll): Binds methods of an object to the object itself, overwriting the existing method.
-
+- [ ] [](): 
 
 ####Objects
 
 - [ ] [_.merge](https://lodash.com/docs#merge): This method is like _.assign except that it recursively merges own and inherited enumerable string keyed properties of source objects into the destination object. Source properties that resolve to undefined are skipped if a destination value exists. Array and plain object properties are merged recursively. Other objects and value types are overridden by assignment. Source objects are applied from left to right. Subsequent sources overwrite property assignments of previous sources. 
+- [ ] [_.keys](https://lodash.com/docs#keys): Creates an array of the own enumerable property names of object. 
+- [ ] [_.invert](https://lodash.com/docs#invert): Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values.
+- [ ] [_.assign](https://lodash.com/docs#assign): Assigns own enumerable string keyed properties of source objects to the destination object. Source objects are applied from left to right. Subsequent sources overwrite property assignments of previous sources. 
 
-
-###You're a super hero and you get extra credit.
-
+##You're a super hero and you get extra credit.
 
 - [ ] [_.chain](https://lodash.com/docs#chain): Creates a lodash wrapper instance that wraps value with explicit method chain sequences enabled. The result of such sequences must be unwrapped with _#value.
 - [ ] [_.tap](https://lodash.com/docs#tap): This method invokes interceptor and returns value. The interceptor is invoked with one argument; (value). The purpose of this method is to "tap into" a method chain sequence in order to modify intermediate results.
+- - [ ] [](): 
