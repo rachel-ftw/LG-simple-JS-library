@@ -1,0 +1,1 @@
+# LG-simple-JS-library
