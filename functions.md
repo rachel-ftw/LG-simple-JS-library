@@ -9,7 +9,8 @@ Pulling data from [lodash](https://lodash.com/)
 
 ###Medium
 
-- [ ] []():
+- [ ] [_.forEachRight(collection, [iteratee=_.identity])](https://lodash.com/docs#forEachRight):
+- [ ] [_.filter(collection, [predicate=_.identity])](https://lodash.com/docs#filter):Iterates over elements of collection, returning an array of all elements predicate returns truthy for.
 
 
 ###Hard
