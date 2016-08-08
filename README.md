@@ -15,11 +15,9 @@ This goal is important in learning JavaScript and understanding how high level d
 ##Specifications
 
 
-Required
-[ ] Pick commonly used methods to rewrite in ES2015.
-[ ] Create a ReadMe that describes each method and provides an example of use.
-[ ] Publish package to NPM.
-[ ] Write tests for those methods described.
-Optional
-[ ] Showcase methods in a simple website app (optional)_.
-[ ] The artifact produced is properly licensed, preferably with the MIT license.
+####Required
+-[ ] Pick 25 commonly used methods to rewrite in ES2015.
+-[ ] Create a ReadMe that describes each method and provides an example of use.
+-[ ] Publish package to NPM.
+-[ ] Write tests for the methods described.
+-[ ] The artifact produced is properly licensed, preferably with the MIT license.
