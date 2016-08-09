@@ -1,10 +1,3 @@
-const isArray = (input) => {
-  if (Array.isArray(input)) {
-    return true
-  } else {
-    return false
-  }
-}
-
+const isArray = input => input instanceof Array
 
 export { isArray }
