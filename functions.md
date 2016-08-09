@@ -4,7 +4,7 @@ Pulling data from [lodash](https://lodash.com/)
 
 ##Less Challenging
 
-- [ ] [_.isArray](https://lodash.com/docs#isArray): Checks if a value is an a array, output is boolean
+- [X] [_.isArray](https://lodash.com/docs#isArray): Checks if a value is an a array, output is boolean
 - [ ] [_.stubArray](https://lodash.com/docs#stubArray): This method returns a new empty array.
 - [ ] [_.upperCase](https://lodash.com/docs#upperCase): Converts string, as space separated words, to upper case.
 - [ ] [_.replace](https://lodash.com/docs#replace): Replaces matches for pattern in string with replacement. 
@@ -24,7 +24,7 @@ Pulling data from [lodash](https://lodash.com/)
 
 ####Arrays
 
-- [ ] [_.map](https://lodash.com/docs#map): Creates an array of values by running each element in collection thru iteratee. 
+- [X] [_.map](https://lodash.com/docs#map): Creates an array of values by running each element in collection thru iteratee.
 - [ ] [_.sortBy](https://lodash.com/docs#sortBy): Creates an array of elements, sorted in ascending order by the results of running each element in a collection thru each iteratee. This method performs a stable sort, that is, it preserves the original sort order of equal elements. The iteratees are invoked with one argument: (value).
 - [ ] [_.filter](https://lodash.com/docs#filter): Iterates over elements of collection, returning an array of all elements predicate returns truthy for. 
 - [ ] [_.slice](https://lodash.com/docs#slice): Creates a slice of array from start up to, but not including, end.

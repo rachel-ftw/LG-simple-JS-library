@@ -4,11 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var isArray = function isArray(input) {
-  if (Array.isArray(input)) {
-    return true;
-  } else {
-    return false;
-  }
+  return input instanceof Array;
 };
 
 exports.isArray = isArray;
