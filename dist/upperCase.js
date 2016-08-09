@@ -3,66 +3,43 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var LETTERS = {
-  a: 'A',
-  b: 'B',
-  c: 'C'
-};
+var letters = "abcdefghijklmnopqrstuvwxyz";
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 
-var UPPER_CASE = {
-  A: 'A',
-  B: 'B',
-  C: 'C'
-};
+var LETTER_MAP = letters.split('').reduce(function (previous, current, index) {
+  var upper = String.fromCharCode(letters.charCodeAt(index) - 32);
 
-var NUMBERS = {
-  1: 1,
-  2: 2,
-  3: 3
-};
+  previous[current] = upper;
+  previous[upper] = upper;
 
-var LETTER_MAP = Object.assign({}, LETTERS, NUMBERS, UPPER_CASE, { ' ': ' ' });
+  return previous;
+}, {});
+
+var NUMBER_MAP = numbers.reduce(function (previous, current, index) {
+  previous[current] = current;
+
+  return previous;
+}, {});
+
+var MAP = Object.assign({}, LETTER_MAP, NUMBER_MAP, { ' ': ' ' });
 
 var upperCase = function upperCase(input) {
+  var stringified = input + '';
   var result = "";
 
-  for (var index = 0; input.length; index++) {
-    var previous = index > 0 ? input[index - 1] : undefined;
-    var currentChar = input[index];
+  stringified = stringified.replace(/[^\dA-Za-z]/, ' ');
 
-    // Add spaces before upper case letters if letter is preceeded by another character
-    result += previous && UPPER_CASE[currentChar] && !UPPER_CASE[previous] && LETTER_MAP[previous] ? ' ' : '';
+  stringified = stringified.replace(/(\w+)([A-Z])(\w+)/, "$1 $2$3");
 
-    // Add spaces before numbers preceeded by a character
-    result += previous && NUMBERS[currentChar] && LETTERS[previous] && UPPER_CASE[previous] ? ' ' : '';
+  stringified = stringified.replace(/([A-Za-z]+)(\d)([A-Za-z0-9]+)/, "$1 $2$3");
 
-    // Turn non (letter or number) into spaces
-    // Make lower case characters upper case
-    result += LETTER_MAP[currentChar] || ' ';
+  stringified = stringified.trim();
+
+  for (var i = 0; i < stringified.length; i++) {
+    result += MAP[stringified[i]];
   }
 
-  var resultIndex = 0;
-  var finalResult = "";
-
-  // Trim at beginning
-  while (result[resultIndex] === ' ') {
-    resultIndex++;
-  }
-
-  for (; resultIndex < result.length; resultIndex++) {
-    var _previous = finalResult.length > 0 ? finalResult[finalResult.length - 1] : undefined;
-
-    // We add the character if the previous thing is not a space OR
-    // We add the character if the previous thing is a space AND the current thing is not a space
-    finalResult += result[resultIndex];
-  }
-  // Collapse successive spaces
-
-
-  // Trim spaces at beginning and end
-
-
-  return finalResult;
+  return result;
 };
 
 exports.upperCase = upperCase;
