@@ -1,17 +1,24 @@
-const sum = input => {
-  for(let i = 0; i < input.length; i++){
-    input[i] += 1
+const indentity = value => value
+
+const baseSum = (array, iteratee) => {
+  let result
+  let index = -1,
+  length = array.length
+
+  while (++index < length) {
+    let current = iteratee(array[index])
+    if (current !== undefined) {
+      result = result === undefined ? current : (result + current)
+    }
   }
+  return result
 }
 
-console.log(sum([1,2,-5,'yes','no',4]))
+const sum = input => {
+  return (input && input.length)
+    ? baseSum(input, identity)
+    : 0
+}
+
 
 export { sum }
-
-    // if (input[i] === input.typeOf(number)) {
-    //   total += input[i]
-    // } else if (input[i] === input.typeOf(string)) {
-
-    // }
-      let result = ''
-  let total = 0
