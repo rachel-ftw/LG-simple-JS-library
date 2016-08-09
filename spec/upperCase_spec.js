@@ -11,7 +11,7 @@ describe('upperCase', () => {
     expect(upperCase('camelCase')).toEqual('CAMEL CASE')
   })
 
-  it('passes numbers and adds space before number', () => {
+  it('adds space before number', () => {
     expect(upperCase('abc123')).toEqual('ABC 123')
     //should this be broken into two different tests?
   })
@@ -21,7 +21,7 @@ describe('upperCase', () => {
   })
 
   it('deletes the space at beginning and end of string', () => {
-    expect(upperCase('__foo bar__')).toEqual('FOO BAR')
+    expect(upperCase('  foo bar  ')).toEqual('FOO BAR')
   })
 
   it('only takes one argument', () => {
@@ -33,4 +33,6 @@ describe('upperCase', () => {
   })
 //write a test for passing variables containing strings? 
 //should we write test for passing undefined words(not a string)
+//converts multiple special characters into 1 space
+//empty returns empty string
 })
