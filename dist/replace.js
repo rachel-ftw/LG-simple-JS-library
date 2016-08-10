@@ -4,8 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var replace = function replace(string, pattern, replacement) {
-  var resultString = string.replace(pattern, replacement);
-  return resultString;
+  return string.replace(pattern, replacement);
 };
 
 exports.replace = replace;

@@ -4,11 +4,12 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var mean = function mean(array) {
-  var numberCount = 0;
   var meanTotal = 0;
-  for (; numberCount < array.length; numberCount++) {
-    meanTotal += array[numberCount];
+
+  for (var index = 0; index < array.length; index++) {
+    meanTotal += array[index];
   }
-  return meanTotal / numberCount;
+
+  return meanTotal / array.length;
 };
 exports.mean = mean;

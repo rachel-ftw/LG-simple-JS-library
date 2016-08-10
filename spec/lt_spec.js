@@ -12,6 +12,17 @@ describe('lt', () => {
   it('is false if the first number is equal to the second', () => {
     expect(lt(5,5)).toEqual(false)
   })
-})
 
-//check what happens if you enter 3 numbers when we get console workin with lodash
+  it( 'compares the first two numbers', () => {
+    expect( lt( 1, 2, 3 ) ).toBe( true )
+  })
+
+  it( 'treats null as less than positive numbers', () => {
+    expect( lt( null, 1 ) ).toBe( true )
+  })
+
+  it( 'treats null as greater than negative numbers', () => {
+    expect( lt( null, -1 ) ).toBe( false )
+  })
+
+})

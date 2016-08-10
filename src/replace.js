@@ -1,6 +1,4 @@
-const replace = (string, pattern, replacement) => {
-  let resultString = string.replace(pattern, replacement)
-  return resultString
-}
+const replace = (string, pattern, replacement) =>
+  string.replace( pattern, replacement )
 
 export { replace }

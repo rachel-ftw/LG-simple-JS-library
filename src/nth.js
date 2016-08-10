@@ -1,11 +1,7 @@
-const nth = (array, input) => {
-  let n =  Math.abs(input)
-  if (input >= 0) {
-    return array[n]
-  } else if (input < 0) {
-    return array[array.length - (n + 1)]
-  }
+const nth = ( array, input ) => {
+  let n = input > 0 ? input : array.length + input
 
+  return array[ n ]
 }
 
 export { nth }

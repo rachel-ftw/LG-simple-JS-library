@@ -1,9 +1,10 @@
 const mean = array => {
-  let numberCount = 0
   let meanTotal = 0
-  for(; numberCount < array.length; numberCount++){
-    meanTotal += array[numberCount]
+
+  for( let index = 0; index < array.length; index++ ){
+    meanTotal += array[ index ]
   }
-  return meanTotal / numberCount
+
+  return meanTotal / array.length
 }
 export { mean }
