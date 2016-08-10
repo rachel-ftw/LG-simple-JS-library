@@ -7,11 +7,11 @@ describe('sum', () => {
   })
 
   it('returns 0 for non array entries', () => {
-    expect(sum('hello')).toEqual(0)
+    expect(sum('hello')).toEqual('hello')
   })
-  
-  it('concatonates strings in an array', () => {
-    expect(sum(['Hello', ' World'])).to Equal('Hello World')
+
+  it('concatenates strings in an array', () => {
+    expect(sum(['Hello', ' World'])).toEqual('Hello World')
   })
 })
 

@@ -1,0 +1,3 @@
+const stubArray = () => []
+
+export { stubArray }
