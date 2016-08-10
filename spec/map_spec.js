@@ -28,7 +28,7 @@ describe( 'map', () => {
     const result = map( original, a => a * 2 )
 
     original.forEach( (element, index) => {
-      expect( element * 2 ).toEqual( result[ index ] ) 
+      expect( element * 2 ).toEqual( result[ index ] )
     })
   })
 
@@ -39,5 +39,18 @@ describe( 'map', () => {
     expect( original ).not.toEqual( result )
   })
 
-  it( 'raises an error when a function is not provided as second argument' )
+  it( 'invokes iteratee with value, index, array for an array input', () => {
+    const test = ( value, index, array ) =>
+      value + '-' + index + '-' + array[ index ]
+
+    expect( map( [ 'a', 'b', 'c' ], test )).toEqual( [ 'a-0-a', 'b-1-b', 'c-2-c' ] )
+  })
+
+  it( 'invokes iteratee with value, key, object for an object input', () => {
+    const test = ( value, key, object ) =>
+      value + '-' + key + '-' + object[ key ]
+
+    expect( map( { a: 1, b: 2, c: 3 }, test )).toEqual( [ '1-a-1', '2-b-2', '3-c-3' ] )
+
+  })
 })
