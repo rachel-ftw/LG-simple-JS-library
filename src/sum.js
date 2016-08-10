@@ -1,24 +1,11 @@
-const indentity = value => value
-
-const baseSum = (array, iteratee) => {
-  let result
-  let index = -1,
-  length = array.length
-
-  while (++index < length) {
-    let current = iteratee(array[index])
-    if (current !== undefined) {
-      result = result === undefined ? current : (result + current)
-    }
-  }
-  return result
-}
-
 const sum = input => {
-  return (input && input.length)
-    ? baseSum(input, identity)
-    : 0
-}
+  let total = input[ 0 ]
 
+  for( let index = 1; index < input.length; index++ ) {
+    total += input[ index ]
+  }
+
+  return total
+}
 
 export { sum }

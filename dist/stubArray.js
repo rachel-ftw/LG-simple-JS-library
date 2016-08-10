@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var stubArray = function stubArray(input) {
+var stubArray = function stubArray() {
   return [];
 };
 

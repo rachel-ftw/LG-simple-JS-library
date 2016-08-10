@@ -1,4 +1,3 @@
-const stubArray = input => []
+const stubArray = () => []
 
-
-export {stubArray}
+export { stubArray }
