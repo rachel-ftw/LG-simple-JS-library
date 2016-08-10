@@ -22,9 +22,9 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] []():.uniqueId
 - [ ] []():.parseInt
 
-- [ ] [_.multiply](https://lodash.com/docs#multiply): Multiply two numbers.
+- [X] [_.multiply](https://lodash.com/docs#multiply): Multiply two numbers.
 
-- [ ] [_.add](https://lodash.com/docs#add): Adds two numbers.
+- [X] [_.add](https://lodash.com/docs#add): Adds two numbers.
 
 - [ ] [_.chunk](https://lodash.com/docs#chunk): Creates an array of elements split into groups the length of size. If array can’t be split evenly, the final chunk will be the remaining elements.
 
@@ -32,7 +32,7 @@ Pulling data from [lodash](https://lodash.com/)
 
 - [ ] [_.trimEnd](https://lodash.com/docs#trimEnd): Removes trailing whitespace or specified characters from string.
 
-- [ ] [_.mean](https://lodash.com/docs#mean): Computes the mean of the values in array.
+- [X] [_.mean](https://lodash.com/docs#mean): Computes the mean of the values in array.
 
 - [ ] [_.lt](https://lodash.com/docs#lt): Checks if value is less than other.
 
