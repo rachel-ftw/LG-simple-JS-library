@@ -17,10 +17,10 @@ Pulling data from [lodash](https://lodash.com/)
 - [X] [_.replace](https://lodash.com/docs#replace): Replaces matches for pattern in string with replacement.
 - [X] [_.nth](https://lodash.com/docs#nth): Gets the element at index n of array. If n is negative, the nth element from the end is returned. 
 - [X] [_.toString](https://lodash.com/docs#toString): Converts value to a string. An empty string is returned for null and undefined values.
-- [ ] **in progress**[_.toArray](https://lodash.com/docs#toArray): Converts value to an array.
-- [ ] [_.uniqueId](https://lodash.com/docs#uniqueId): Generates a unique ID. If prefix is given, the ID is appended to it.
+- [X] [_.toArray](https://lodash.com/docs#toArray): Converts value to an array.
+- [X] [_.uniqueId](https://lodash.com/docs#uniqueId): Generates a unique ID. If prefix is given, the ID is appended to it.
 
-- [ ] [](): .size
+- [X] [](): .size
 - [X] [](): .divide
 
 30min trying, 15 min dissecting
