@@ -21,7 +21,7 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] [_.uniqueId](https://lodash.com/docs#uniqueId): Generates a unique ID. If prefix is given, the ID is appended to it.
 
 - [ ] [](): .size
-- [ ] [](): .divide
+- [X] [](): .divide
 
 30min trying, 15 min dissecting
 - [ ] [_.pad](https://lodash.com/docs#pad): Pads string on the left and right sides if it’s shorter than length. Padding characters are truncated if they can’t be evenly divided by length.
