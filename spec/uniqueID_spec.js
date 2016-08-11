@@ -12,4 +12,3 @@ describe( 'uniqueID', () => {
     expect( uniqueID( 'prefix' ).startsWith( 'prefix-') ).toBe( true )
   })
 })
-
