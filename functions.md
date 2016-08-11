@@ -22,7 +22,9 @@ Pulling data from [lodash](https://lodash.com/)
 - [X] [](): .size
 - [X] [](): .divide
 - [X] [_.keys](https://lodash.com/docs#keys): Creates an array of the own enumerable property names of object.
-- [ ] [_.invert](https://lodash.com/docs#invert): Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values.
+- [X] [_.invert](https://lodash.com/docs#invert): Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values.
+- [ ] [_.chunk](https://lodash.com/docs#chunk): Creates an array of elements split into groups the length of size. If array can’t be split evenly, the final chunk will be the remaining elements.
+
 
 30min trying, 15 min dissecting
 - [ ] [_.pad](https://lodash.com/docs#pad): Pads string on the left and right sides if it’s shorter than length. Padding characters are truncated if they can’t be evenly divided by length.
@@ -30,7 +32,6 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] [_.slice](https://lodash.com/docs#slice): Creates a slice of array from start up to, but not including, end.
 - [ ] [_.zip](https://lodash.com/docs#zip): Creates an array of grouped elements, the first of which contains the first elements of the given arrays, the second of which contains the second elements of the given arrays, and so on.
 - [ ] [_.parseInt](https://lodash.com/docs#parseInt): Converts string to an integer of the specified radix. If radix is undefined or 0, a radix of 10 is used unless value is a hexadecimal, in which case a radix of 16 is used. 
-- [ ] [_.chunk](https://lodash.com/docs#chunk): Creates an array of elements split into groups the length of size. If array can’t be split evenly, the final chunk will be the remaining elements.
 - [ ] [_.trimEnd](https://lodash.com/docs#trimEnd): Removes trailing whitespace or specified characters from string.
 
 
