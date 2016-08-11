@@ -20,6 +20,8 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] **in progress**[_.toArray](https://lodash.com/docs#toArray): Converts value to an array.
 - [ ] [_.uniqueId](https://lodash.com/docs#uniqueId): Generates a unique ID. If prefix is given, the ID is appended to it.
 
+- [ ] [](): .size
+- [ ] [](): .divide
 
 30min trying, 15 min dissecting
 - [ ] [_.pad](https://lodash.com/docs#pad): Pads string on the left and right sides if it’s shorter than length. Padding characters are truncated if they can’t be evenly divided by length.
