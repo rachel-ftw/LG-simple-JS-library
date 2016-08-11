@@ -1,9 +1,14 @@
 const toArray = input => {
-  let result = []
-  if (input instanceof String) {
+  if ( typeof(input) === 'string' ) {
     return input.split('')
   } else if (input instanceof Object) {
-    return input.values()
+    let values = []
+
+    for( var key in input ) {
+      values.push( input[ key ] )
+    }
+
+    return values
   } else {
     return []
   }
