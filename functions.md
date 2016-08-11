@@ -23,7 +23,7 @@ Pulling data from [lodash](https://lodash.com/)
 - [X] [](): .divide
 - [X] [_.keys](https://lodash.com/docs#keys): Creates an array of the own enumerable property names of object.
 - [X] [_.invert](https://lodash.com/docs#invert): Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values.
-- [ ] [_.chunk](https://lodash.com/docs#chunk): Creates an array of elements split into groups the length of size. If array can’t be split evenly, the final chunk will be the remaining elements.
+- [X] [_.chunk](https://lodash.com/docs#chunk): Creates an array of elements split into groups the length of size. If array can’t be split evenly, the final chunk will be the remaining elements.
 
 
 30min trying, 15 min dissecting
@@ -34,22 +34,3 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] [_.parseInt](https://lodash.com/docs#parseInt): Converts string to an integer of the specified radix. If radix is undefined or 0, a radix of 10 is used unless value is a hexadecimal, in which case a radix of 16 is used. 
 - [ ] [_.trimEnd](https://lodash.com/docs#trimEnd): Removes trailing whitespace or specified characters from string.
 
-
-
-
-------------------------
-####Stretch
-
-- [ ] [_.merge](https://lodash.com/docs#merge): This method is like .assign except that it recursively merges own and inherited enumerable string keyed properties of source objects into the destination object. Source properties that resolve to undefined are skipped if a destination value exists. Array and plain object properties are merged recursively. Other objects and value types are overridden by assignment. Source objects are applied from left to right. Subsequent sources overwrite property assignments of previous sources.
-
-- [ ] [_.wrap](https://lodash.com/docs#wrap): Creates a function that provides value to wrapper as its first argument. Any additional arguments provided to the function are appended to those provided to the wrapper. The wrapper is invoked with the this binding of the created function.
-
-- [ ] [_.unary](https://lodash.com/docs#unary): Creates a function that accepts up to one argument, ignoring any additional arguments.
-
-- [ ] [_.flow](https://lodash.com/docs#flow): Creates a function that returns the result of invoking the given functions with the this binding of the created function, where each successive invocation is supplied the return value of the previous.
-
-- [ ] [_.bindAll](https://lodash.com/docs#bindAll): Binds methods of an object to the object itself, overwriting the existing method.
-
-- [ ] [_.sortBy](https://lodash.com/docs#sortBy): Creates an array of elements, sorted in ascending order by the results of running each element in a collection thru each iteratee. This method performs a stable sort, that is, it preserves the original sort order of equal elements. The iteratees are invoked with one argument: (value).
-
-- [ ] []():
