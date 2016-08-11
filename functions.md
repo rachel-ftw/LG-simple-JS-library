@@ -16,16 +16,18 @@ Pulling data from [lodash](https://lodash.com/)
 - [X] [_.sum](https://lodash.com/docs#sum): Computes the sum of the values in array.
 - [X] [_.replace](https://lodash.com/docs#replace): Replaces matches for pattern in string with replacement.
 - [X] [_.nth](https://lodash.com/docs#nth): Gets the element at index n of array. If n is negative, the nth element from the end is returned. 
+- [X] [_.toString](https://lodash.com/docs#toString): Converts value to a string. An empty string is returned for null and undefined values.
+- [ ] **in progress**[_.toArray](https://lodash.com/docs#toArray): Converts value to an array.
+- [ ] [_.uniqueId](https://lodash.com/docs#uniqueId): Generates a unique ID. If prefix is given, the ID is appended to it.
 
+- [ ] [](): .size
+- [X] [](): .divide
 
 30min trying, 15 min dissecting
 - [ ] [_.pad](https://lodash.com/docs#pad): Pads string on the left and right sides if it’s shorter than length. Padding characters are truncated if they can’t be evenly divided by length.
-- [ ] [_.toString](https://lodash.com/docs#toString): Converts value to a string. An empty string is returned for null and undefined values.
-- [ ] [_.toArray](https://lodash.com/docs#toArray): Converts value to an array.
 - [ ] [_.filter](https://lodash.com/docs#filter): Iterates over elements of collection, returning an array of all elements predicate returns truthy for.
 - [ ] [_.slice](https://lodash.com/docs#slice): Creates a slice of array from start up to, but not including, end.
 - [ ] [_.zip](https://lodash.com/docs#zip): Creates an array of grouped elements, the first of which contains the first elements of the given arrays, the second of which contains the second elements of the given arrays, and so on.
-- [ ] [_.uniqueId](https://lodash.com/docs#uniqueId): Generates a unique ID. If prefix is given, the ID is appended to it.
 - [ ] [_.parseInt](https://lodash.com/docs#parseInt): Converts string to an integer of the specified radix. If radix is undefined or 0, a radix of 10 is used unless value is a hexadecimal, in which case a radix of 16 is used. 
 - [ ] [_.chunk](https://lodash.com/docs#chunk): Creates an array of elements split into groups the length of size. If array can’t be split evenly, the final chunk will be the remaining elements.
 - [ ] [_.trimEnd](https://lodash.com/docs#trimEnd): Removes trailing whitespace or specified characters from string.
