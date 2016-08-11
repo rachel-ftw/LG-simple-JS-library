@@ -26,14 +26,5 @@ Pulling data from [lodash](https://lodash.com/)
 - [X] [_.chunk](https://lodash.com/docs#chunk): Creates an array of elements split into groups the length of size. If array can’t be split evenly, the final chunk will be the remaining elements.
 - [ ] **check w jRob**[_.slice](https://lodash.com/docs#slice): Creates a slice of array from start up to, but not including, end.
 - [ ] **Check w/ Jrob** [_.zip](https://lodash.com/docs#zip): Creates an array of grouped elements, the first of which contains the first elements of the given arrays, the second of which contains the second elements of the given arrays, and so on.
-- [ ] [_.filter](https://lodash.com/docs#filter): Iterates over elements of collection, returning an array of all elements predicate returns truthy for.
-
-
-30min trying, 15 min dissecting
-- [ ] [_.pad](https://lodash.com/docs#pad): Pads string on the left and right sides if it’s shorter than length. Padding characters are truncated if they can’t be evenly divided by length.
-
-
-
-
-- [ ] []():
-
+- [ ] ** Check w jrob** [_.filter](https://lodash.com/docs#filter): Iterates over elements of collection, returning an array of all elements predicate returns truthy for.
+- [ ] ** Check w jrob** [_.pad](https://lodash.com/docs#pad): Pads string on the left and right sides if it’s shorter than length. Padding characters are truncated if they can’t be evenly divided by length.
