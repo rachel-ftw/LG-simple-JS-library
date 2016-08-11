@@ -4,11 +4,16 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var toArray = function toArray(input) {
-  var result = [];
-  if (input instanceof String) {
+  if (typeof input === 'string') {
     return input.split('');
   } else if (input instanceof Object) {
-    return input.values();
+    var values = [];
+
+    for (var key in input) {
+      values.push(input[key]);
+    }
+
+    return values;
   } else {
     return [];
   }
