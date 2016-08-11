@@ -19,9 +19,12 @@ Pulling data from [lodash](https://lodash.com/)
 - [X] [_.toString](https://lodash.com/docs#toString): Converts value to a string. An empty string is returned for null and undefined values.
 - [X] [_.toArray](https://lodash.com/docs#toArray): Converts value to an array.
 - [X] [_.uniqueId](https://lodash.com/docs#uniqueId): Generates a unique ID. If prefix is given, the ID is appended to it.
-
 - [X] [](): .size
 - [X] [](): .divide
+- [X] [_.keys](https://lodash.com/docs#keys): Creates an array of the own enumerable property names of object.
+- [X] [_.invert](https://lodash.com/docs#invert): Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values.
+- [X] [_.chunk](https://lodash.com/docs#chunk): Creates an array of elements split into groups the length of size. If array can’t be split evenly, the final chunk will be the remaining elements.
+
 
 30min trying, 15 min dissecting
 - [ ] [_.pad](https://lodash.com/docs#pad): Pads string on the left and right sides if it’s shorter than length. Padding characters are truncated if they can’t be evenly divided by length.
@@ -29,25 +32,5 @@ Pulling data from [lodash](https://lodash.com/)
 - [ ] [_.slice](https://lodash.com/docs#slice): Creates a slice of array from start up to, but not including, end.
 - [ ] [_.zip](https://lodash.com/docs#zip): Creates an array of grouped elements, the first of which contains the first elements of the given arrays, the second of which contains the second elements of the given arrays, and so on.
 - [ ] [_.parseInt](https://lodash.com/docs#parseInt): Converts string to an integer of the specified radix. If radix is undefined or 0, a radix of 10 is used unless value is a hexadecimal, in which case a radix of 16 is used. 
-- [ ] [_.chunk](https://lodash.com/docs#chunk): Creates an array of elements split into groups the length of size. If array can’t be split evenly, the final chunk will be the remaining elements.
 - [ ] [_.trimEnd](https://lodash.com/docs#trimEnd): Removes trailing whitespace or specified characters from string.
-- [ ] [_.keys](https://lodash.com/docs#keys): Creates an array of the own enumerable property names of object.
-- [ ] [_.invert](https://lodash.com/docs#invert): Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values.
 
-
-------------------------
-####Stretch
-
-- [ ] [_.merge](https://lodash.com/docs#merge): This method is like .assign except that it recursively merges own and inherited enumerable string keyed properties of source objects into the destination object. Source properties that resolve to undefined are skipped if a destination value exists. Array and plain object properties are merged recursively. Other objects and value types are overridden by assignment. Source objects are applied from left to right. Subsequent sources overwrite property assignments of previous sources.
-
-- [ ] [_.wrap](https://lodash.com/docs#wrap): Creates a function that provides value to wrapper as its first argument. Any additional arguments provided to the function are appended to those provided to the wrapper. The wrapper is invoked with the this binding of the created function.
-
-- [ ] [_.unary](https://lodash.com/docs#unary): Creates a function that accepts up to one argument, ignoring any additional arguments.
-
-- [ ] [_.flow](https://lodash.com/docs#flow): Creates a function that returns the result of invoking the given functions with the this binding of the created function, where each successive invocation is supplied the return value of the previous.
-
-- [ ] [_.bindAll](https://lodash.com/docs#bindAll): Binds methods of an object to the object itself, overwriting the existing method.
-
-- [ ] [_.sortBy](https://lodash.com/docs#sortBy): Creates an array of elements, sorted in ascending order by the results of running each element in a collection thru each iteratee. This method performs a stable sort, that is, it preserves the original sort order of equal elements. The iteratees are invoked with one argument: (value).
-
-- [ ] []():
