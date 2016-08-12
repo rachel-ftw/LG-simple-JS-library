@@ -14,6 +14,6 @@ lt was declared as a constant and it takes two numbers as parameters. Using a le
 
 
 ```
-_.lt(20, 8)
+lt(20, 8)
 // false
 ```

@@ -14,6 +14,6 @@ The function only takes an array with numerical values. It iterates through the 
 
 
 ```
-_.mean([5,3,7,1])
+mean([5,3,7,1])
 //4
 ```

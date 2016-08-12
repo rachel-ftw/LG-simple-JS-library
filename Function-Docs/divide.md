@@ -14,6 +14,6 @@ We declared the function name as divide and set it to a constant variable, then 
 
 
 ```
-_.divide(15, 5);
+divide(15, 5);
 // 3
 ```

@@ -14,6 +14,6 @@ We declared the function name as add and set it to a constant variable, then cre
 
 
 ```
-_.add(8, 7);
+add(8, 7);
 // 15
 ```
