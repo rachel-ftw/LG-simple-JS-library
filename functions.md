@@ -8,7 +8,7 @@ Pulling data from [lodash](https://lodash.com/)
 - [X] [_.mean](https://lodash.com/docs#mean): Computes the mean of the values in array.
 - [X] [_.noop](https://lodash.com/docs#noop): This method returns undefined.
 - [X] [_.lt](https://lodash.com/docs#lt): Checks if value is less than other.
-- [X] [_.now](https://lodash.com/docs#now): Gets the timestamp of the number of milliseconds that have elapsed since the Unix epoch (1 January 1970 00:00:00 UTC). **jrob check**
+- [X] [_.now](https://lodash.com/docs#now): Gets the timestamp of the number of milliseconds that have elapsed since the Unix epoch (1 January 1970 00:00:00 UTC).
 - [X] [_.add](https://lodash.com/docs#add): Adds two numbers.
 - [X] [_.isArray](https://lodash.com/docs#isArray): Checks if a value is an a array, output is boolean
 - [X] [_.stubArray](https://lodash.com/docs#stubArray): This method returns a new empty array.
@@ -24,7 +24,7 @@ Pulling data from [lodash](https://lodash.com/)
 - [X] [_.keys](https://lodash.com/docs#keys): Creates an array of the own enumerable property names of object.
 - [X] [_.invert](https://lodash.com/docs#invert): Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values.
 - [X] [_.chunk](https://lodash.com/docs#chunk): Creates an array of elements split into groups the length of size. If array can’t be split evenly, the final chunk will be the remaining elements.
-- [ ] **check w jRob**[_.slice](https://lodash.com/docs#slice): Creates a slice of array from start up to, but not including, end.
 - [X] [_.zip](https://lodash.com/docs#zip): Creates an array of grouped elements, the first of which contains the first elements of the given arrays, the second of which contains the second elements of the given arrays, and so on.
-- [ ] ** Check w jrob** [_.filter](https://lodash.com/docs#filter): Iterates over elements of collection, returning an array of all elements predicate returns truthy for.
-- [ ] ** Check w jrob** [_.pad](https://lodash.com/docs#pad): Pads string on the left and right sides if it’s shorter than length. Padding characters are truncated if they can’t be evenly divided by length.
+- [ ] **check w jRob**[_.slice](https://lodash.com/docs#slice): Creates a slice of array from start up to, but not including, end.
+- [ ] **Check w jrob** [_.filter](https://lodash.com/docs#filter): Iterates over elements of collection, returning an array of all elements predicate returns truthy for.
+- [ ] **Check w jrob** [_.pad](https://lodash.com/docs#pad): Pads string on the left and right sides if it’s shorter than length. Padding characters are truncated if they can’t be evenly divided by length.
