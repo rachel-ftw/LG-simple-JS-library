@@ -12,8 +12,7 @@ Converts string, as space separated words, to upper case. When we got into testi
 
 First, we created we created variables containing number and letters, in a string and array respectively. 
 
-(What does caps mean again?)
-(is this 'hashing'? I think so.)
+Created hashing-maps in order to be able to parse through te given argument, then check if they match the criteria. Then, when they match they are replaced with the given elements of the hashing-map that corelates to that given character by either turning the letter into an uppercase, adding a space between the characters, or completely omitting the character in that index key. We used regexp characters in order t express the iteration of the function through the string and check its validity with the hashing-map.
 
 
 
