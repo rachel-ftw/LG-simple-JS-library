@@ -19,12 +19,12 @@ Pulling data from [lodash](https://lodash.com/)
 - [X] [_.toString](https://lodash.com/docs#toString): Converts value to a string. An empty string is returned for null and undefined values.
 - [X] [_.toArray](https://lodash.com/docs#toArray): Converts value to an array.
 - [X] [_.uniqueId](https://lodash.com/docs#uniqueId): Generates a unique ID. If prefix is given, the ID is appended to it.
-- [X] [](): .size
-- [X] [](): .divide
+- [X] [_.size](https://lodash.com/docs#size): Gets the size of collection by returning its length for array-like values or the number of own enumerable string keyed properties for objects.
+- [X] [_.divide](https://lodash.com/docs#divide): Divide two numbers.
 - [X] [_.keys](https://lodash.com/docs#keys): Creates an array of the own enumerable property names of object.
 - [X] [_.invert](https://lodash.com/docs#invert): Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values.
 - [X] [_.chunk](https://lodash.com/docs#chunk): Creates an array of elements split into groups the length of size. If array can’t be split evenly, the final chunk will be the remaining elements.
 - [X] [_.zip](https://lodash.com/docs#zip): Creates an array of grouped elements, the first of which contains the first elements of the given arrays, the second of which contains the second elements of the given arrays, and so on.
-- [ ] **check w jRob**[_.slice](https://lodash.com/docs#slice): Creates a slice of array from start up to, but not including, end.
-- [ ] **Check w jrob** [_.filter](https://lodash.com/docs#filter): Iterates over elements of collection, returning an array of all elements predicate returns truthy for.
-- [ ] **Check w jrob** [_.pad](https://lodash.com/docs#pad): Pads string on the left and right sides if it’s shorter than length. Padding characters are truncated if they can’t be evenly divided by length.
+- [X] [_.slice](https://lodash.com/docs#slice): Creates a slice of array from start up to, but not including, end.
+- [X] [_.filter](https://lodash.com/docs#filter): Iterates over elements of collection, returning an array of all elements predicate returns truthy for.
+- [X] [_.pad](https://lodash.com/docs#pad): Pads string on the left and right sides if it’s shorter than length. Padding characters are truncated if they can’t be evenly divided by length.
