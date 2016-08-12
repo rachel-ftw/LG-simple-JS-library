@@ -1,10 +1,12 @@
 # Slice
+
 ### Overview
 
-
+[Lodash Slice](https://lodash.com/docs#slice)
 
 
 ### Technical Explanation
+
 
 
 

@@ -2,7 +2,7 @@
 
 ### Overview
 
-
+[Lodash StubArray](https://lodash.com/docs#stubArray)
 
 
 ### Technical Explanation

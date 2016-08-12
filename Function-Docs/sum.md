@@ -2,6 +2,8 @@
 
 ### Overview
 
+[Lodash Sum](https://lodash.com/docs#sum)
+
 Sum adds the contents of an array together.
 
 ### Technical Explanation
