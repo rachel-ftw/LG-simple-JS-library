@@ -1,11 +1,14 @@
-const slice = (input, start=0, end=input.length) => {
-  if( ! ( input instanceof Array) || (input instanceof String) ) {
+const slice = ( input, start=0, end ) => {
+  if( ! ( input instanceof Array || typeof( input ) === 'string' ) ) {
     return []
-  } 
-  let result = []
-  for (let i = start; i < end; i++) {
-    result.push(input[i])
   }
+
+  let result = []
+
+  for( let i = start; i < ( end || input.length ); i++ ) {
+    result.push( input[i] )
+  }
+
   return result
 }
 

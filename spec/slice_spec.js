@@ -1,4 +1,4 @@
-import { slice } from "../dist/slice.js"
+import { slice } from "../src/slice.js"
 
 describe( 'slice', () => {
   it('returns an empty array for null', () =>{
