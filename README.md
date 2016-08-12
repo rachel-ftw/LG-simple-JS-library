@@ -21,7 +21,7 @@ This goal is important in learning JavaScript and understanding how high level d
 
 - [X] Create a ReadMe that describes each method and provides an example of use. [100% Complete](https://github.com/rachel-ftw/LG-simple-JS-library/tree/master/Function-Docs)
 
-- [X] Publish package to NPM. 100% Complete
+- [X] Publish package to NPM. [100% Complete-Link to NPM Library](https://www.npmjs.com/package/simplelibrary) 
 
 - [X] Write tests for the methods described. [100% Complete](https://github.com/rachel-ftw/LG-simple-JS-library/tree/master/spec) and all 88 tests are passing.
 
