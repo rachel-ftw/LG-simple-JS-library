@@ -1,12 +1,9 @@
-# invert
+# Invert
 
 ### Overview
 
 
-
-
 ### Technical Explanation
-
 
 
 ### Code Examples
